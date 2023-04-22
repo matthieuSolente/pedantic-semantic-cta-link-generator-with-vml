@@ -4,7 +4,9 @@ A html/vml CTA Link Generator based on Mark Robbins Pedantic Semantic CTA Link
 
 
 ### VML button generator by Matthieu Solente
-Based on Mark Robbins pedantic semantics cta link, updated in april 2023. You'll find all explanations here : https://www.goodemailcode.com/email-code/link-button
+See a working example on my [codepen](https://codepen.io/matthieuSolente/pen/PoybBwY)
+
+Based on [Mark Robbins](https://www.goodemailcode.com/email-code/link-button) pedantic semantics cta link, updated in april 2023. You'll find all explanations on his blog.
 
 From its code for a CTA in html, I created this generator that automatically generates the right measures in em, for better accessibility. The peculiarity of this button is that it uses the mso-font-width and mso-text-raise attributes to set the padding on Outlook. I
 
