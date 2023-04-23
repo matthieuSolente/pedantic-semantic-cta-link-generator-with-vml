@@ -95,4 +95,7 @@ $( "input, select" ).on('change',function() {
   $('#vmlButton').on('click',function(){
  updateButton();
   });
+  $('#btnClass').on('change',function() {
+  updateButton();
+});
 })(jQuery);
