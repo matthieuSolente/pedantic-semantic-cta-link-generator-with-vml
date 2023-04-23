@@ -19,7 +19,7 @@
     cssBtnClass = '.' + $('#btnClass').val();
     fontFamily = $('#fontFamily').val();
     fontBase = $('#fontBase').val();
-    fontValue = $('#fontSize').val();
+    fontValue = $('#fontSize').val().toFixed(1);
     fontEm = $('#fontSize').val()/$('#fontBase').val()+'em';
     fontColor = $('#fontColor').val();
     if($('#btnBorder').is(':checked')){
