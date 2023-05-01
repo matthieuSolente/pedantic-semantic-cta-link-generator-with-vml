@@ -14,14 +14,3 @@ function copyPaste(element) {
       $(this).append('<button type="button" class="copy" onclick="copyPaste(this)" aria-hidden="false" aria-label="Copy to clipboard"><span class="visually-hidden">Copy to Clipboard</span></button>');
     });
 
- /*End document ready*/
-
-// var numInputs = $('input[type=number]');
-
-// numInputs.each(function(input) {
-//   input.on('change', function(e) {
-//     if (input.val() == '') {
-//       input.val() = 0
-//     }
-//   })
-// })
