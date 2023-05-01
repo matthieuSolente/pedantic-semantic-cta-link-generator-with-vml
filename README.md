@@ -1,4 +1,4 @@
-# Pedantic-Semantic-CTA-Link-Generator
+# Pedantic Semantic CTA Link Generator with VML
 A html/vml CTA Link Generator based on Mark Robbins Pedantic Semantic CTA Link
 
 
