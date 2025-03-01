@@ -81,35 +81,8 @@
                 <aside class="px">px</aside>
               </div>
             </div>
-            <div class="button-generator--row">
-              <div class="button-generator--half-row">
-                <div class="checkbox">
-                  <input class="inline checkbox" type="checkbox" name="button-border" id="btnBorder">
-                  <label class="inline" for="btnBorder">Border ?</label>
-                </div>
-              </div>
-            </div>
-            <div id="borderInput" class="button-generator--row">
-              <div class="button-generator--half-row">
-                <label for="borderColor">Border color</label>
-                <input type="text" name="button-border-color" id="borderColor" value="#000001" data-coloris>
-              </div>
-              <div>
-                <label for="borderWidth">Border width</label>
-                <input type="number" name="button-border-width" id="borderWidth"  max="8" value="1">
-              </div>
-            </div>
-            <div class="button-generator--row">
-              <div class="button-generator--half-row">
-                <label for="align">Align</label>
-                <select id="align" name="button-align-button">
-                  <option value="left">Left</option>
-                  <option value="center" selected="selected">Center</option>
-                  <option value="right">Right</option>
-                </select>
-              </div>
-            </div>
-            <div class="button-generator--row">
+           
+            <div id="bodyFont" class="button-generator--row">
               <div class="button-generator--half-row">
                 <label for="fontBase">Body font size</label>
                 <input type="number" name="body-font-Size" id="fontBase" min="12" max="18" value="16">
@@ -133,6 +106,24 @@
                 <aside class="px">px</aside>
               </div>
             </div>
+              <div id="border" class="button-generator--row">
+                <div class="button-generator--half-row">
+                  <div class="checkbox">
+                    <input class="inline checkbox" type="checkbox" name="button-border" id="btnBorder">
+                    <label class="inline" for="btnBorder">Border ?</label>
+                  </div>
+                </div>
+              </div>
+              <div id="borderInput" class="button-generator--row">
+                <div class="button-generator--half-row">
+                  <label for="borderColor">Border color :</label>
+                  <input type="text" name="button-border-color" id="borderColor" value="#000001" data-coloris>
+                </div>
+                <div class="button-generator--half-row">
+                  <label for="borderWidth">Border width :</label>
+                  <input type="number" name="button-border-width" id="borderWidth" min="0" max="8" value="1">
+                </div>
+              </div>
             <div class="button-generator--row">
               <div class="button-generator--half-row">
                 <label for="tbPadding">Top & Bottom padding</label>
