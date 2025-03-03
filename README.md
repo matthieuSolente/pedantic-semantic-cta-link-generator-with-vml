@@ -70,5 +70,9 @@ Even if the calculation seems convoluted, the rendering is much better than if w
 <!--[if mso]><i style="mso-font-width:250%;mso-text-raise:3.00pt" hidden>&emsp;</i><![endif]-->Show me the button!<!--[if mso]><i style="mso-font-width:250%;mso-text-raise:-3.00pt" hidden>&emsp;&#8203;</i><![endif]-->
 ```
 
+I also changed Mark's original version to the html version, simplifying mso-text-raise formula as follows. Here we do not need to carry out more complex calculations, because in the html version, the padding is well respected.
+```javascript
+msoTextRaise =(($('#tbPadding').val() * 75 / 100)).toFixed(2)+'pt';
+```
 So try it and enjoy !! Of course, if you notice any areas for improvement, don't hesitate to let me know!
 
